@@ -1,0 +1,62 @@
+@media only screen and (min-width:768px) and (max-width:1366px){
+    .head_page{
+        width: 1312px;
+        height: 739px;
+        top: 53px;
+        left: 35px;
+        border: 1px;
+    }
+    .woman_image{
+        width: 468px;
+        height: 634px;
+        top: 158px;
+        left: 830px;
+        position: absolute;
+        background-image: url(../img/Woman_image.jpg);
+    }
+    .h_h_text{
+        width: 533px;
+        height: 182px;
+        top: 190px;
+        left: 170px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 39px;
+        font-weight: 600;
+        position: absolute;
+        color: #1D1D1F;
+        
+
+    }
+    .p_h_text{
+        width: 533px;
+        height: 46px;
+        top: 420px;
+        left: 170px;
+        position: absolute;
+
+    }
+    .h_button{
+        width: 200px;
+        height: 68px;
+        top: 507px;
+        left: 170px;
+        background-image: url(../png/h_button.png);
+        position: absolute;
+        cursor: pointer;
+
+    }
+    @keyframes skewing {
+        0%   { transform: skew(0deg); }
+        10%   { transform: skew(-3deg); } 
+   
+        
+    }
+    .woman_image:hover{
+        animation-name: skewing;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-iteration-count: 2;
+        cursor: pointer;
+    }
+}
+
